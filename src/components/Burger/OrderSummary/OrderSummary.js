@@ -1,6 +1,7 @@
 import React from 'react';
 import Aux from '../../../hoc/Aux'
 const OrderSummary = (props) =>{
+    //test git branch
     const ingredientSummary = Object.keys(props.ingredients).map(igKey=>{
         return <li key={igKey}><span style={{textTransform:'capitalize'}}>{igKey}</span>: {props.ingredients[igKey]}</li>
     });
