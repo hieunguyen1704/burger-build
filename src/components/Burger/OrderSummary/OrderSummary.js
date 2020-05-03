@@ -1,5 +1,5 @@
 import React from 'react';
-import Aux from '../../../hoc/Aux'
+import Aux from '../../../hoc/Auxs'
 const OrderSummary = (props) =>{
     //test git branch
     const ingredientSummary = Object.keys(props.ingredients).map(igKey=>{
